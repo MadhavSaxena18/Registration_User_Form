@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration Form</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <h2>User Registration</h2>
+
+    <form onsubmit="alert('Form submitted successfully!'); return false;" method="post">
+
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="birthdate">Birthdate:</label><br>
+        <input type="date" id="birthdate" name="birthdate"><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="3" cols="30"></textarea><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+
+    </form>
+
+    
+    <h3>Why Register?</h3>
+    <ul>
+        <li>Access exclusive features</li>
+        <li>Track your progress</li>
+        <li>Personalized content</li>
+    </ul>
+
+</body>
+</html>
